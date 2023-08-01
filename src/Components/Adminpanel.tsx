@@ -1,6 +1,6 @@
 import React from 'react';
-
-import { Link } from 'react-router-dom';
+// import {  Nav } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
 
 function Adminpanel() {
   return (
@@ -9,11 +9,13 @@ function Adminpanel() {
         Admin Panel
       </div>
       <div className="border border-black p-12 flex flex-col border-t-4 border-b-1 border-l-4">
-        <Link to="/Employemenu"> 
-          <button className="my-1 bg-indigo-500 px-12 py-4 text-white text-left">
-            Employee Menu
-          </button>
-        </Link>
+        {/* <Link to="/Employemenu">  */}
+        {/* <Nav.Link href="/Employemenu">About</Nav.Link> */}
+        {/* </Link> */}
+        <button className="my-1 bg-indigo-500 px-12 py-4 text-white text-left">
+         Employee Menu
+        </button>
+
         <button className="my-1 bg-indigo-500 px-12 py-4 text-white text-left">
           Leave Tracker
         </button>
